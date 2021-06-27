@@ -285,3 +285,18 @@ header {
     text-align: center;
     padding-top: 10px;
 }
+
+.tools {
+    background: url(assets/wavey.png);
+    height: 220vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.tools h1 {
+    color: white;
+    font-size: 64px;
+    padding-top: 40vh;
+    padding-left: 93vh;
+}
