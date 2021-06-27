@@ -158,7 +158,7 @@ header {
 }
 
 .reading {
-    background: url("assets/readingresources.png");
+    background: url("assets/readingsource.png");
     margin-top: -26.5vh;
     height: 100vh;
 	-webkit-background-size: cover;
@@ -166,24 +166,44 @@ header {
 	background-position: center center;
 	position: relative;
 }
-.reading .card {
+/* .cards .readingtext {
+    color: #4B4B5B;
+    font-size: 64px;
+    margin-top: -50vh;
+    text-align: center;
+} */
+.cards .card {
     margin-left: 10%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 5px;
-    height: 300px;
-    width: 250px;
+    border-radius: 15px;
+    height: 470px;
+    width: 350px;
     background-color: #CACBD9;
+    margin-top: -20vh;
   }
-.reading .card1 {
-    border-radius: 5px 5px 0 0;
+.cards .card1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 35px;
     padding-bottom: 35px;
   }
-.reading .container {
+.cards .container {
     background-color: #A3A4C6;
-    height: 100px;
+    height: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+.cards .container h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards .container p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
 }
