@@ -156,3 +156,34 @@ header {
     color: white;
     font-size: 30;
 }
+
+.reading {
+    background: url("assets/readingresources.png");
+    margin-top: -26.5vh;
+    height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.reading .card {
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 300px;
+    width: 250px;
+    background-color: #CACBD9;
+  }
+.reading .card1 {
+    border-radius: 5px 5px 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+.reading .container {
+    background-color: #A3A4C6;
+    height: 100px;
+}
