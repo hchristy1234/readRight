@@ -115,19 +115,44 @@ header {
 }
 .about {
     background-color: #444053;
+    padding-bottom: 40px;
 }
-.about h1 {
+.about .what {
     padding-top: 45px;
     color: white;
     text-align: center;
     font-size: 64px;
 }
-
 .about p {
     color: white;
     text-align: center;
     padding-top: 23px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 40px;
     font-size: 24px;
+}
+.about .one{
+    display: inline;
+    color: white;
+    font-size: 72px;
+    padding-left: 30%;
+    padding-right: 20%;
+}
+.about .two {
+    display: inline;
+    color: white;
+    font-size: 72px;
+}
+.about .pone {
+    display: inline;
+    color: white;
+    font-size: 30;
+    padding-left: 29%;
+    padding-right: 6%;
+}
+.about .ptwo {
+    display: inline;
+    color: white;
+    font-size: 30;
 }
