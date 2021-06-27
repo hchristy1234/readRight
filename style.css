@@ -324,3 +324,38 @@ header {
     background-color: white;
     border-radius: 15px;
 }
+
+.thonk {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 64px;
+}
+.take {
+    margin-top: 30px;
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 36px;
+}
+.form {
+    background-color: white;
+    box-shadow: 5px 10px black;
+}
+label {
+    text-align: center;
+}
+.check {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+}
+.formsubmit {
+    align-items: center;
+    background-color: #AED9E0;
+    border-radius: 47px;
+    padding-right: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
