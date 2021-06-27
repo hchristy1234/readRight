@@ -172,8 +172,14 @@ header {
     margin-top: -50vh;
     text-align: center;
 } */
+.cards {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
 .cards .card {
-    margin-left: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 15px;
@@ -202,6 +208,78 @@ header {
 }
 
 .cards .container p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cards .cardtwo {
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    height: 470px;
+    width: 350px;
+    background-color: #CACBD9;
+    margin-top: -20vh;
+  }
+.cards .card2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+.cards .container2 {
+    background-color: #A3A4C6;
+    height: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+.cards .container2 h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards .container2 p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cards .cardthree {
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    height: 470px;
+    width: 350px;
+    background-color: #CACBD9;
+    margin-top: -20vh;
+  }
+.cards .card3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+.cards .container3 {
+    background-color: #A3A4C6;
+    height: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+.cards .container3 h4 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards .container3 p {
     color: white;
     font-size: 18px;
     text-align: center;
