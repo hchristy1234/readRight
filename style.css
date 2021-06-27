@@ -348,6 +348,10 @@ label {
     font-size: 36px;
     margin-top: 100px;
 }
+.form {
+    text-align: center;
+    padding-bottom: 50px;
+}
 .formsubmit {
     align-items: center;
     background-color: #AED9E0;
@@ -358,4 +362,18 @@ label {
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+.back{
+    text-align: center;
+    background-color: #C5DFE3;
+}
+.back button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 64px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D9AAAC;
 }
