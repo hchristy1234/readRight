@@ -303,15 +303,24 @@ header {
 
 .dragon {
     margin-top: 25vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20vh;
+    margin-right: 20vh;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
 }
-.dragon h2 {
+.dragon h2, .scribe h2, .opendyslexic h2 {
     font-size: 50px;
 }
-.dragon p {
+.dragon p, .scribe p, .opendyslexic p {
     font-size: 28px;
+}
+
+.scribe, .opendyslexic {
+    margin-top: 50px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
 }
